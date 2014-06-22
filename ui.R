@@ -32,7 +32,8 @@ shinyUI(pageWithSidebar(
           a("github", 
             href = "https://github.com/ss6012/dataprod_shinyapp", target = "_blank")),
         p("Visit", 
-          a("this page", href = "https://github.com/ss6012/Slidify-Doc-Shiny-App", target = "_blank"), "for documentation")
+          a("this page", href = "https://github.com/ss6012/Slidify-Doc-Shiny-App", target = "_blank"), "for documentation"),
+          a("Sample.csv", href = "https://db.tt/NjtUG4GG", target = "_blank")
         
     ),
     
