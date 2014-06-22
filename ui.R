@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(pageWithSidebar(
-    headerPanel("Upload, pre-process and visualize"),
+    headerPanel("Data Pre-Processor Widget"),
     
     sidebarPanel(
         fileInput('file1', 'Upload CSV file with names in the first row and then type (N, F) in the second row',
